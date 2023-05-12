@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bradley Marshall</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./style.css"> 
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+a:link{
+    text-decoration: none ;
+}
+
+.div1{
+    background-color: grey;
+}
+
+.img-container{
+    width:200px;
+    margin: auto; 
+}
+
+
+</style>
+</head>
+<body class="w3-light-grey">
+
+  <!-- Navbar -->
+  <div class="w3-top"> <!--CAN I Get this in the middle?-->
+
+    <div class="w3-bar w3-black w3-card">
+
+      <a href="https://www.facebook.com/bradleymarshallmusic/" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.instagram.com/bradleymarshallofficial/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+    <!--<a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>-->
+    <!--<a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>-->
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="w3-bar-item w3-button menu-right"><i class="fa fa-linkedin"></i></a>
+    
+
+    
+      <div class = "menu">
+          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="./index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOME</a>
+          <a href="./services.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
+          <a href="./services.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <!--<a href="#" class="w3-bar-item w3-button">Reviews</a>-->
+              <a href="./image_Gallery.html" class="w3-bar-item w3-button">Photo Gallery</a>
+              <!--<a href="#" class="w3-bar-item w3-button">Videos</a>-->
+              <!--<a href="#" class="w3-bar-item w3-button">DJ and MC</a>-->
+            </div>
+          </div>
+        </div>
+          <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+      </div>
+    </div>
+    <div>
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+        <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="w3-margin-right:46px">
+          <a href="./index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME </a>
+          <a href="./services.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
+          <a href="./image_Gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">IMAGE GALLERY </a>
+          <a href="./services.html#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        </div>
+    </div>
+      
+  </div>
+
+
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>BRADLEY MARSHALL</b></h1>
+
+
+    <h6>Singer . Songwriter . Producer   <span class="w3-tag">MultiInstrumentalist</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="./images/headshot.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Bradley</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>MARSHALL</b></h1>
+      <h6><a href = "./secondpage.html" class = "w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" id = "scroll-to-bottom">HIRE</a></h6>
+      <!--FIX THIS !!!<h6><a class = "w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off">href = "</a><button class="" onclick="document.getElementById('subscribe').style.display='block'">BOOK</button></h6>-->
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      
+
+      <!-- LIVE PERFORMANCE BLOG -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Live Performance</h3>
+          <h5>Hire Bradley to <span class="w3-opacity">Perform</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="./images/headshot-black-and-white.jpg" alt="Black and White Headshot of Brad" style="width:100%" class="w3-padding-16">
+          <p><strong>Bradley </strong> is a high in demand entertainer. </p>
+          <p>His performance accolades include performances at Universal Studios in California and Disney World, as well as touring Los Angeles, Texas and New York. <br><br> Bradley regularly performs in Melbournes best corporate wedding group "Like this Entertainment". You can also find him regularly gigging at Melbournes best piano bars and NightClubs, including Electric Dreams Crown and Jonos Piano Bar Prahran. <br><br>In 2022, Bradley musical directed and co-produced the Midnight Artist Showcase at Crown Casino, a night, celebrating and showcasing the talent of numerous emerging Melbourne artists.</p>
+          
+          
+          
+        </div>
+      </div>
+
+        <!-- SONGWRITING BLOG -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Songwriting Sessions</h3>
+          <h5>Create Hits <span class="w3-opacity">with Bradley</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="./images/white-piano-brad.jpg" alt="Bradley playing a white piano and singing" style="width:100%" class="w3-padding-16">
+          <p><strong>Cowriting, Arranging and Instrumentation</strong>  <br><br>Bradley is an expert in this field of songwriting, choral and string arranging, as well as instrumentation and harmonisation. <br><br>Bradley has cowritten many hit songs, including Rise by Paul Kaspar and Brave by Sanika; Rise of which was performed before 450,000 people on the 28th of November 2021, many who sung along to the haunting lyrics and melody<br><br>
+            With Bradleys intensive dedication to craft, having studied popular music at Monash University as well as classical piano at Melbourne University, Bradley has a range of popular songwriting techniques and a profound sense of creativity.
+        
+        
+          </p>
+          
+        </div>
+      </div>
+      <hr>
+
+      <!-- MUSIC LESSONS BLOG -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Music Lessons</h3>
+          <h5>Learn Piano, Singing and <span class="w3-opacity">Songwriting </span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="./images/headshot-real-people.jpg" alt="Headshot of Bradley" style="width:100%" class="w3-padding-16">
+          <p><strong>Study with Melbournes Best </strong>in music tutition.</p>
+          <p>Bradley has been teaching music for over 10 years and is an expert in his domain. <br><br>Bradley teaches a wide range of styles from Classical to Jazz, specialising in Popular Music and Songwriting. <br><br>Bradleys songwriting lessons dissect what it is to create a hit song. Bradley deconstructs hit songs in class and compares them with original works that you create. By the end of your teaching semester, you will have created an original composition, with some of the best students creations, being recorded at the Alera Music Productions recording studio. A high quality recording of your original song, once perfected, will be arranged, mixed and mastered as part of songwriting classes. <br><br>Bradley also specialises in teaching the next generation of Singer-Piano-Player Combinations, creating the next emerging Elton Johns, Alicia Keys', Lady Gaga's and Billy Joels. Enrol with Bradley today.</p>
+          
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-black">
+          <h4>Bradley Marshall</h4>
+          <p>is a singer, songwriter, multi-instrumentalist and producer.
+            
+            Over the years, Bradley has toured Los Angeles, Texas and New York in various bands, performing at venues including Disneyland and Universal Studios.
+            In 2022, Bradley musical directed and co-produced the Midnight Artist Showcase at Crown Casino, showcasing Melbournes emerging talent before a world stage.  
+            Bradley performs regularly as part of Melbournes best corporate Wedding band, "Like This Entertainment". You can also find him performing at numerous Melbourne bars and night clubs. 
+            
+            Bradley completed a diploma of Classical Piano from the University of Melbourne and a Bachelors Degree in Popular Music at Monash University.</p>
+        </div>
+        
+      </div>
+      <hr>
+
+      <!-- MUSIC  -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Bradley's Music</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <a href="https://open.spotify.com/track/1RIhcMs0RdvSPmfcgiY8os?si=oGAJI4e9R02gGWSksz0mvw&context=spotify%3Asearch%3Arise%2Balera&fbclid=IwAR13kFLBwuSlC230rf4f1RgWX2k0f8ALE35q7ZN_on_XgKltpv3BK-a1B8k&nd=1">
+                <img src="./images/rise.jpg" alt="Rise Single Cover" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Rise</span>
+                <br>
+                <span>Paul Kaspar and Bradley Marshall</span>
+            </a>
+          </li>
+          <li class="w3-padding-16">
+            <a href = "https://soundcloud.com/bradleymarshallmusic/brave?ref=clipboard&p=i&c=1&si=F089C182A20C420AA93610E6152E548B&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" > 
+                <img src="./images/sanika-brave.jpg" alt="Brave Single Cover" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Brave</span>
+                <br>
+                <span>Sanika and Bradley Marshall</span>
+            </a>
+          </li>
+          <li class="w3-padding-16">
+            <a href = "https://open.spotify.com/track/7fYVh0M9q4TbtipF09U2jj?fbclid=IwAR20p0dMc-5uDT9Ubm4zSTjUq-bl-cTh60QVzZDS4OHkZxRXGlLb7Dx6lac" >
+                <img src="./images/love-never-dies.jpg " alt="Love Never Dies Single Cover" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Love Never Dies</span>
+                <br>
+                <span>Bradley Marshall</span>
+            </a>
+          </li>
+          <li class="w3-padding-16">
+            <a href = "https://open.spotify.com/track/1kktC5caYfohA5nYECYlpx?fbclid=IwAR2FK7N-0iMeR4Tn0D7psGoQj9dxCl-F3sV87CHjknUZjVcLR6OSsNClcUk" >
+                <img src="./images/bloodstone.jpg" alt="BloodStone Single Cover" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">BloodStone</span>
+                <br>
+                <span>Lamboy the Toxic Dropkick and Bradley Marshall</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Alera -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Alera Music Productions</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <div class="img-container">
+
+                <a href = "https://www.facebook.com/aleramusic">
+                    <img src = "./images/alera.jpg" alt="Alera Logo"  style="width:200px">
+                    
+    
+                </a>
+            </div>
+            
+            <!--<span class="w3-display-middle">Your AD Here</span>-->
+          </div>
+          <p> Bradley Marshall is affiliated with Alera Music Productions</p>
+        </div>
+      </div>
+      <hr>
+
+
+      
+    
+
+      <!-- SESSION MUSIC -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Session Music</h4>
+        </div>
+        <div class="w3-container w3-black">
+         <p>Bradley has networked with a plethora of musicians from a variety of different styles. Hire a recording musician for your original track.</p>
+        </div>
+        <img src="./images/piano-hands.jpg" alt="Bradleys Hands playing the piano" style="width:100%" class="w3-grayscale">
+
+        <div class="w3-container w3-white">
+            
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Piano</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Synth</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Organ</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Guitar</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Electric</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Acoustic</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Brass</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trumpet</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trombone</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Woodwind</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Saxophone</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Flute</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Vocalists</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Choir</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Watch Bradley</h4>
+        </div>
+        <iframe width="100%" src="https://www.youtube.com/embed/CoBYfARzd_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+      </div>
+      <hr>
+
+      
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <a href = "https://www.facebook.com/bradleymarshallmusic/"> 
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          </a>  
+          <a href = "https://www.instagram.com/bradleymarshallofficial/">
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+          </a>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+     
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-grayscale" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+</footer>
+
+<script>
+
+
+
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
